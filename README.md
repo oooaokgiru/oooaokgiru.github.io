@@ -1,1 +1,1 @@
-# oooaokgiru.github.io
+# oooaokgi.github.io
