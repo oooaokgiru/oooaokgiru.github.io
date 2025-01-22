@@ -3,6 +3,9 @@
 [3.1.9]
 Name = Tank game RU 3.1.9
 URL = http://oooaokgiru.github.io/download/Tankgame3.1.9.exe
+Size = 18202128
+SHA256 = F076B3EF68724E99DE11AAE490B3EC22872F4607B2D6871F6C6CA9D7D7E96A4A
+MD5 = 0faf9439f2c546ce0c2bb2421b02579c
 ServerFileName = Tankgame3.1.9.exe
 Flags = Critical|Sys64|Os64
 RegistryKey = HKUD\Software\Your Application\Version
