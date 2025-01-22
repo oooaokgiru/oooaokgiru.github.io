@@ -1,11 +1,11 @@
 ;aiu;
 
 [3.1.9]
-Name = Your Application
+Name = Tank game RU 3.1.9
 URL = http://oooaokgiru.github.io/download/Tankgame3.1.9.exe
-Size = 20583045
-SHA256 = 3AB03A3581B17894B497638DA8ED47A4300F516F01136DB0FB671E7DAFB59705
-MD5 = e07dcd9615590076518286601458124f
-ServerFileName = Tankgame.exe
-Flags = Sys64|Os64
+Size = 20583107
+SHA256 = 3D1459BE8375F89B557FD67480F5CE373FEE279DCAC3316F48F1FE5B7853F3F0
+MD5 = 23cb2eb8d171f891c7b4f688790fb965
+ServerFileName = Tankgame3.1.9.exe
+Flags = Critical|Sys64|Os64
 RegistryKey = HKUD\Software\Your Application\Version
