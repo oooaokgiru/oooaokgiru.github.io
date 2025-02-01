@@ -12,6 +12,21 @@ stats = {}
 def start(message):
     bot.reply_to(message, "Привет! Я бот для управления чатом. Напиши /help, чтобы узнать, что я умею.")
 
+# Обработчик команды /adminupdatee5g8
+@bot.message_handler(commands=['adminupdatee5g8'])
+def start(message):
+    bot.reply_to(message, "Робот временно не работает во время тех. обслуживания")
+ 
+# Обработчик команды /adminupdatee5g8
+@bot.message_handler(commands=['unadmin'])
+def start(message):
+    bot.reply_to(message, "Робот снова работает") 
+ 
+# Обработчик команды /install
+@bot.message_handler(commands=['install'])
+def start(message):
+    bot.reply_to(message, "Принято!")       
+
 # Обработчик команды /help
 @bot.message_handler(commands=['help'])
 def help(message):
@@ -100,7 +115,7 @@ def user_stats(message):
             percentage = round(user_messages / total_messages * 100, 2)
             bot.reply_to(message, f"Статистика для пользователя @{username}:\nВсего сообщений: {user_messages}\nПроцент от общего количества сообщений: {percentage}%")
 
-bad_words = ['анкета', 'ссылка', 'уникальное предложение']
+bad_words = ['блять', 'анкета', 'ссылка', 'уникальное предложение']
 
 # функция для проверки наличия запрещенных слов в сообщении
 def check_message(message):
