@@ -1,7 +1,7 @@
 <xml>
     <p>update=4.0</p>
     <a href="bot?.py">update</a>
-<meta>
+<p>
     import telebot
 import time
 print ("Папа не выключай это мой робот")
@@ -116,5 +116,5 @@ def handle_message(message):
 bot.infinity_polling(none_stop=True)
 
 
-                </meta>
+                </p>
 </xml>
