@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'm4tr1x';
+    font-display: swap;
+    src: local('m4tr1x'),
+         url('m4tr1xsansmono-book-webfont.woff2') format('woff2'),
+         url('m4tr1xsansmono-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {height:100%;}
+body {
+  padding: 0;
+  margin: 0;
+  background: #000000;
+  color: #00AA00;
+  font-family: 'm4tr1x', 'DejaVu Sans Mono', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14pt;
+  line-height: 150%;
+}
+a { text-decoration: none; color: #888; }
+a:hover { text-decoration: underline; color: #aaa; }
+#console {
+  background: #000000;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  padding: 0.5em;
+  overflow: auto;
+  overflow-y: scroll;
+  z-index: 10000000;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#console::-webkit-scrollbar {
+  display: none;
+}
+p {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  width: 100%;
+  margin: 0;
+}
+p:focus, input {
+  outline: none;
+}
+.password {
+  z-index: 10000001;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
+.password-dialog {
+  background: #000000;
+  padding: 10px;
+  position: relative;
+  margin: 30px auto;
+  border:2px solid;
+  border-color: #00aa00;
+  border-radius:5px;
+  width: 300px;
+  overflow: hidden;
+}
+input {
+  background: #000000;
+  border: 0;
+  font-family: 'm4tr1x', 'DejaVu Sans Mono', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14pt;
+  color: #00aa00;
+  width: 100%;
+}
+button.close {
+  color: #00aa00;
+  cursor: pointer;
+  border: 0;
+  background: 0 0;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  float: right;
+}

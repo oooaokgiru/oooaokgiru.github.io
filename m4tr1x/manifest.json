@@ -1,0 +1,31 @@
+{
+  "short_name": "m4tr1x",
+  "name": "m4tr1x mainframe",
+  "icons": [
+    {
+      "src": "https://m4tr1x.ws/logo-192.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "https://m4tr1x.ws/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://m4tr1x.ws/logo-192.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "https://m4tr1x.ws/logo-192.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "https://m4tr1x.ws/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}
